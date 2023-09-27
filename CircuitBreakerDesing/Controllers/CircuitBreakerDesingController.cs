@@ -15,7 +15,7 @@ namespace FiratCircuitBreaker.Controllers
         
         }
         [HttpGet]
-        [Route("deneme")]
+        [Route("Get")]
         public async Task Get()
         {
              await CircuitBreakerDesing.CircuitBreaker();
